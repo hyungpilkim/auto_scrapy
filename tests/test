@@ -1,0 +1,73 @@
+[
+    {
+        "idx": 0,
+        "is_check": true,
+        "text_name": "naver",
+        "num_reapeat": 1,
+        "job_list": [
+            {
+                "idx": "1",
+                "is_check": true,
+                "job_name": "test1",
+                "url": "https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com",
+                "text_selector": "",
+                "type_selector": "",
+                "type_action": "move",
+                "text_input": "GiZ4HEYGSTcNZveYE4yMuTHJyS9DGnf5tsSDLL8DP18=",
+                "text_result": ""
+            },
+            {
+                "idx": "2",
+                "is_check": true,
+                "job_name": "test2",
+                "url": "",
+                "text_selector": "//*[@id=\"id\"]",
+                "type_selector": "//*[@id=\"id\"]",
+                "type_action": "set",
+                "text_input": "2lT9tDrAWesy5QY0lgz5mUDw4no+K2k0H6iQwWJTLuM=",
+                "text_result": ""
+            },
+            {
+                "idx": "3",
+                "is_check": true,
+                "job_name": "test3",
+                "url": "",
+                "text_selector": "//*[@id=\"id\"]",
+                "type_selector": "//*[@id=\"id\"]",
+                "type_action": "set",
+                "text_input": "WOj3YP2AgIXQkJDHk2c5mKgI7PmBOp9mE6r4MJ4QmZQ=",
+                "text_result": ""
+            }
+        ]
+    },
+    {
+        "idx": 1,
+        "is_check": true,
+        "text_name": "test login",
+        "num_reapeat": 1,
+        "job_list": [
+            {
+                "idx": "4",
+                "is_check": true,
+                "job_name": "test4",
+                "url": "",
+                "text_selector": "//*[@id=\"id\"]",
+                "type_selector": "//*[@id=\"id\"]",
+                "type_action": "set",
+                "text_input": "hFxqeUE00tWRIBNKjNvleP/LCHIcmN3p8UQPdAhopa4=",
+                "text_result": ""
+            },
+            {
+                "idx": "5",
+                "is_check": true,
+                "job_name": "test5",
+                "url": "",
+                "text_selector": "//*[@id=\"id\"]",
+                "type_selector": "//*[@id=\"id\"]",
+                "type_action": "set",
+                "text_input": "b2sOB8AG+2UttAWtlkoNYm0DumSySeBpwAMhLM6maP8=",
+                "text_result": ""
+            }
+        ]
+    }
+]

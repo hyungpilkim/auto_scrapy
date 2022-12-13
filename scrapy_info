@@ -1,0 +1,83 @@
+[
+    {
+        "idx": "",
+        "is_check": true,
+        "text_name": "\uc6d4\uae09\uc7c1\uc774\ubd80\uc790\ub4e4_READY",
+        "num_reapeat": "",
+        "job_list": [
+            {
+                "idx": "",
+                "is_check": true,
+                "job_name": "\uce74\ud398\uc774\ub3d9",
+                "text_target": "https://cafe.naver.com/wecando7",
+                "text_multiple_selector": "",
+                "text_selector": "",
+                "type_selector": "",
+                "type_action": "",
+                "type_target": "url",
+                "text_input": "",
+                "text_result": ""
+            },
+            {
+                "idx": "",
+                "is_check": true,
+                "job_name": "\uba54\ub274_\uc5b4\uc81c\uc758top5",
+                "text_target": "",
+                "text_multiple_selector": "",
+                "text_selector": "//*[@id=\"menuLink244\"]",
+                "type_selector": "xpath",
+                "type_action": "click",
+                "type_target": "single",
+                "text_input": "",
+                "text_result": ""
+            },
+            {
+                "idx": "",
+                "is_check": true,
+                "job_name": "frame\uc774\ub3d9",
+                "text_target": "cafe_main",
+                "text_multiple_selector": "",
+                "text_selector": "",
+                "type_selector": "",
+                "type_action": "",
+                "type_target": "frame",
+                "text_input": "",
+                "text_result": ""
+            }
+        ]
+    },
+    {
+        "idx": "",
+        "is_check": false,
+        "text_name": "\uc6d4\uae09\uc7c1\uc774\ubd80\uc790\ub4e4",
+        "num_reapeat": "",
+        "job_list": [
+            {
+                "idx": "",
+                "is_check": true,
+                "job_name": "\uae00 tr > \ubc88\ud638",
+                "text_target": ".article-board .td_article",
+                "text_multiple_selector": ".article-board .td_article",
+                "text_selector": ".inner_number",
+                "type_selector": "query_selector",
+                "type_action": "get",
+                "type_target": "multiple",
+                "text_input": "",
+                "text_result": ""
+            },
+            {
+                "idx": "",
+                "is_check": true,
+                "job_name": "\uae00 tr > \uc81c\ubaa9",
+                "text_target": ".article-board .td_article",
+                "text_multiple_selector": ".article-board .td_article",
+                "text_selector": ".inner_list > a",
+                "type_selector": "query_selector",
+                "type_action": "get",
+                "type_target": "multiple",
+                "text_input": "",
+                "text_result": ""
+            }
+        ]
+    }
+]
