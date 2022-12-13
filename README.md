@@ -14,6 +14,7 @@ selenium브라우저를 GUI 설정에 의해서
 - windows 10
 - Python 3.10.7
 - QT5
+- Selenium
 pip install -r requirements.txt
 
 1. selenium 다운로드
@@ -28,5 +29,4 @@ config = {
 <img width="450px" height="300px" src="https://user-images.githubusercontent.com/69671250/207306491-93933b0e-c453-43c8-aa72-d7f4f4ff6356.PNG">
 
 
-selenium
 <img src="https://user-images.githubusercontent.com/69671250/207304805-524137ec-1526-47bc-ae8b-2572115433d2.gif">
