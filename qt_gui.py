@@ -43,7 +43,7 @@ class WorkerResultQ(QtCore.QThread):
                 data = self.result_q.get()
                 self.finished.emit(data)
 
-file_nm = 'scrapy_info'
+file_nm = 'scrapy_info1'
 class QtGui(QtWidgets.QMainWindow):
     def __init__(self, job_q, result_q):
         super(QtGui, self).__init__()

@@ -9,15 +9,18 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 from multiprocessing import Queue
 import conf
-
+import selenium_downloader
 import pyperclip
 from selenium.webdriver.common.keys import Keys
+
 
 from define_data import DataJob, TypeSelector, TypeAction, TypeTarget
 class Browser():
     def __init__(self, job_q, result_q):
         self.job_q = job_q
         self.result_q = result_q
+        downloader = selenium_downloader.SeleniumDownloader()
+        downloader.check_version()
         
     def open_browser(self ):
         self.browser = webdriver.Chrome(conf.config['selenium_path'])

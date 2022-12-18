@@ -2,10 +2,12 @@ import json
 import os
 from collections import namedtuple
 import copy
+import os.path
 from define_data import DataGroup, DataJob
 class FileManager():
     def __init__(self, file_nm):
         self.__file_path = "./" + file_nm
+
         #self.aes_manager = aes_util.AesUtil()
     
     def save_file(self, data_list):
@@ -26,6 +28,9 @@ class FileManager():
     
     def read_file(self):
         json_data = []        
+        if os.path.isfile(self.__file_path) == False:
+            return json_data
+
         with open(self.__file_path, "r") as json_file:
             try:
                 json_data = json.load(json_file)
