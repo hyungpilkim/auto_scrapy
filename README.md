@@ -31,3 +31,6 @@ config = {
 
 <img src="https://user-images.githubusercontent.com/69671250/207466376-8c004bfc-f036-48f0-9ea0-1c2158f9f6b5.gif">
 <img src="https://user-images.githubusercontent.com/69671250/207304805-524137ec-1526-47bc-ae8b-2572115433d2.gif">
+
+세부 설명 
+https://xmobile.tistory.com/entry/Auto-Scrapy-%EC%82%AC%EC%9A%A9%EB%B0%A9%EB%B2%95
